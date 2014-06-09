@@ -1,4 +1,4 @@
-history_app
+Rails App Template
 ===========
 
-Proof of concept of history widget
+Template for rails applications. Inbox support for sass, slim, coffeescript, bower, normalize.css + basic markup for page layout with sticky footer.
