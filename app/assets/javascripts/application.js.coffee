@@ -1,5 +1,7 @@
 #= require vendor
+#= require_tree ./initializers
+#= require_tree ./app
 #= require_tree .
 
 $ ->
-  console.log 'Some text here'
+  Vtree.initNodes()
