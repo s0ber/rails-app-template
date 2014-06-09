@@ -1,6 +1,7 @@
 {
   "name": "history_app",
   "dependencies": {
+    "normalize-css": "3.0.1",
     "underscore": "1.6.0",
     "vtree": "~0.1.2"
   }
