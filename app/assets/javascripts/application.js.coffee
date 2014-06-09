@@ -10,8 +10,7 @@
 # Read Sprockets README (http://github.com/sstephenson/sprockets#sprockets-directives) for details
 # about supported directives.
 #
-#= require jquery
-#= require jquery_ujs
+#= require vendor
 #= require_tree .
 
 $ ->
