@@ -1,3 +1,3 @@
-window.match = sinon.match.bind(sinon)
-window.spy = sinon.spy.bind(sinon)
-window.stub = sinon.stub.bind(sinon)
+window.match = _.bind(sinon.match, sinon)
+window.spy = _.bind(sinon.spy, sinon)
+window.stub = _.bind(sinon.stub, sinon)
