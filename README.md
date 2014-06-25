@@ -28,3 +28,24 @@ Run rails server.
 ```
 bundle exec rails s
 ```
+
+## Specs for JS
+
+This template has inbox support for testing javascript. Mocha+Chai+Sinon are used here. Tests are being run with help of **karma**.
+
+No rails process is required for testing, everything is made via **node.js**. Tests are located in ```/spec/javascripts```. To run them, at first install required node modules, install gulp and coffeegulp globally.
+
+```
+npm install -g gulp
+npm install -g coffeegulp
+npm install
+```
+
+Then, you'll have access to two gulp tasks, the first one for a single run, and the second for continuous integration.
+
+```
+coffeegulp karma:ci
+coffeegulp karma:dev
+```
+
+That's it. See sources for more information.
